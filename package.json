@@ -1,0 +1,15 @@
+{
+  "name": "netlify_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+	  "moment": "^2.24.0",
+	  "netlify-lambda": "^1.6.3"
+  },
+  "scripts": {
+	  "build": "netlify-lambda build src/",
+	  "serve": "netlify-lambda serve src/"
+  }
+}
