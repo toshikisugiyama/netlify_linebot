@@ -3,13 +3,22 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "license": "MIT",
-  "dependencies": {
-	  "moment": "^2.24.0",
-	  "netlify-lambda": "^1.6.3"
-  },
   "scripts": {
-	  "build": "netlify-lambda build src/",
-	  "serve": "netlify-lambda serve src/"
+    "build": "netlify-lambda build src/",
+    "serve": "netlify-lambda serve src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toshikisugiyama/netlify_test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toshikisugiyama/netlify_test/issues"
+  },
+  "homepage": "https://github.com/toshikisugiyama/netlify_test#readme",
+  "dependencies": {
+    "netlify-lambda": "^1.6.3"
   }
 }
