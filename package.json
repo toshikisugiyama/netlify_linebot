@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/toshikisugiyama/netlify_test#readme",
   "dependencies": {
+    "axios": "^0.19.2",
     "netlify-lambda": "^1.6.3"
   }
 }
