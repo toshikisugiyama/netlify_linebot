@@ -1,7 +1,6 @@
 import axios from 'axios'
 
 exports.handler = async function (event, context, callback) {
-  try{
     const webhookBody = JSON.parse(event.body)
     console.log(webhookBody)
 
@@ -28,12 +27,4 @@ exports.handler = async function (event, context, callback) {
       statusCode: 200,
       body: JSON.stringify(event)
     })
-
-  } catch (error) {
-    const {
-      status,
-      statusText
-    } = error.response
-    console.log(`Error! Http status: ${status} ${statusText}`)
-  }
 }
