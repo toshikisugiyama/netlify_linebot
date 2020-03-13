@@ -46,13 +46,17 @@ export default {
       items: [
         {
           type: 'action',
-          label: '行った',
-          text: '[4]行った'
+          action: {
+            label: '行った',
+            text: '[4]行った'
+          }
         },
         {
           type: 'action',
-          label: '行ってへん',
-          text: '[5]行ってへん'
+          action: {
+            label: '行ってへん',
+            text: '[5]行ってへん'
+          }
         },
       ]
     }
