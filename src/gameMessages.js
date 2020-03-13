@@ -47,6 +47,7 @@ export default {
         {
           type: 'action',
           action: {
+            type: 'message',
             label: '行った',
             text: '[4]行った'
           }
@@ -54,6 +55,7 @@ export default {
         {
           type: 'action',
           action: {
+            type: 'message',
             label: '行ってへん',
             text: '[5]行ってへん'
           }
