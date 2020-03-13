@@ -5,7 +5,7 @@
 
 ↓友達登録はコチラ
 
-![BotQRcode](https://qr-official.line.me/sid/L/643ajayb.png)
+[BotQRcode](https://qr-official.line.me/sid/L/643ajayb.png)
 
 ## 手順
 
