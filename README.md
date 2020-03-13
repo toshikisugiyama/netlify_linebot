@@ -3,9 +3,7 @@
 > Netlify Functions を用いてLINEボットを作成した。
 > 「こんにちは」と挨拶すると、調子を尋ねて来るボット
 
-↓友達登録はコチラ
-
-![BotQRcode](https://qr-official.line.me/sid/L/643ajayb.png)
+[友達登録はコチラ](https://qr-official.line.me/sid/L/643ajayb.png)
 
 ## 手順
 
