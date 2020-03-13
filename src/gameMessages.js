@@ -1,15 +1,15 @@
 export default {
-  "スタート": {
+  "こんにちは": {
     type: 'text',
-    text: '調子はどう？',
+    text: 'こんにちは！調子はどう？',
     quickReply: {
       items: [
         {
           type: 'action',
           action: {
             type: 'message',
-            label: '元気',
-            text: '[1]元気'
+            label: '元気!',
+            text: '[1]元気!'
           }
         },
         {
@@ -33,11 +33,11 @@ export default {
   },
   "1": {
     type: 'text',
-    text: '調子ええな'
+    text: '調子ええな。'
   },
   "2": {
     type: 'text',
-    text: 'いいねー'
+    text: 'いいねぇ。'
   },
   "3": {
     type: 'text',
@@ -65,7 +65,7 @@ export default {
   },
   "4": {
     type: 'text',
-    text: 'お大事に'
+    text: 'お大事に！'
   },
   "5": {
     type: 'text',
